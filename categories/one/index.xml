@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>One on Welcome to HTML </title>
+    <link>https://gennadiy1970.github.io/hugo-cards/categories/one/</link>
+    <description>Recent content in One on Welcome to HTML </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-rus</language>
+    <lastBuildDate>Mon, 13 Jun 2016 10:51:47 +0530</lastBuildDate>
+    
+	<atom:link href="https://gennadiy1970.github.io/hugo-cards/categories/one/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tag</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/tag/</link>
+      <pubDate>Mon, 13 Jun 2016 10:51:47 +0530</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/tag/</guid>
+      <description>     &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; На этой странице собраны все элементы HTML
+ Основные элементы Метаданные документа Секционирование содержания Текстовое содержание Встроенные текстовые семантики Изображения и мультимедиа Встроенное содержание Скриптинг Разграничительные правки Содержание таблиц Формы  Интерактивные элементы Веб-компоненты Устаревшие и осуждаемые элементы  </description>
+    </item>
+    
+    <item>
+      <title>Работа с файлами</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/files/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/files/</guid>
+      <description>Keys  Behavior     touch&amp;nbsp;index.html  создаст пустой файл index.html   echo &amp;gt; index.html  создаст пустой файл index.html   echo &#39;Hello World&#39; &amp;gt; index.html  создаст файл index.html c текстом &#39;Hello World&#39;   cat&amp;nbsp;index.html  покажет в терминале текст из файла index.html   echo&amp;nbsp;&#39;new line text&#39; &amp;gt;&amp;gt; index.html  добавит текст &#39;new line text&#39; в файл index.html с новой строки   diff&amp;nbsp;index.</description>
+    </item>
+    
+  </channel>
+</rss>

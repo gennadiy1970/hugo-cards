@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Welcome to HTML </title>
+    <link>https://gennadiy1970.github.io/hugo-cards/posts/</link>
+    <description>Recent content in Posts on Welcome to HTML </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-rus</language>
+    <lastBuildDate>Sat, 27 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gennadiy1970.github.io/hugo-cards/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Boot</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/boot/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/boot/</guid>
+      <description>Скорость загрузки страницы - важнейший показатель работы сайта.
+Google опубликовал исследование из которого следует, что пользователь переключается на другой сайт, если не дождался появления контента в течение 2,5 секунд.
+По этой причине Google ранжирует сайты при выводе поискового запроса в том числе и по скорости загрузки страницы. Все это требует от FrontEnd-а постоянного внимания к вопрсу скорости загрузки.
+Два важных параметра ограничивающие скорость загрузки страницы
+ Максимальное количество параллельных загрузок браузера = 17 соединений.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/hello/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/hello/</guid>
+      <description>Hello World</description>
+    </item>
+    
+    <item>
+      <title>Работа с директориями</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/dir/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/dir/</guid>
+      <description>Keys  Behavior     mkdir app  создаст директорию app   mkdir&amp;nbsp;app{1..50}  создаст 50 директорий с именами от app1 до app50   mkdir -p src/{css,img,js}  создаст директорию src с вложенными директориями css, img, js   mkdir -p year{2015..2020}/month{1..12}  создаст 6 директорий и в каждой по 12 директорий (year2015/month1)   mkdir&amp;nbsp;class-{A..D}  создаст 4 директории class-A, class-B, class-C, class-D   mkdir -p&amp;nbsp;`date &#39;+%Y-%m-%d&#39;`/{jpg,raw}  создаст директорию вида 2018-10-15 с вложенными директориями jpg, raw   pwd  выведет строку с текущей директорией   cd&amp;nbsp;src  перейдет в директорию src&amp;nbsp;или сообщит об отсутствии такой директории   cd .</description>
+    </item>
+    
+    <item>
+      <title>Tag</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/tag/</link>
+      <pubDate>Mon, 13 Jun 2016 10:51:47 +0530</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/tag/</guid>
+      <description>     &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; На этой странице собраны все элементы HTML
+ Основные элементы Метаданные документа Секционирование содержания Текстовое содержание Встроенные текстовые семантики Изображения и мультимедиа Встроенное содержание Скриптинг Разграничительные правки Содержание таблиц Формы  Интерактивные элементы Веб-компоненты Устаревшие и осуждаемые элементы  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/tags/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/tags/</guid>
+      <description>В настоящее время существует около 124 тегов. Однако активно используется только небольшая часть из &amp;nbsp;списка тегов на MDN с кратким описанием назначения кадждого&amp;nbsp;
+Спецификация HTML Необходимые для верстальщика разделы спецификации:
+ #3 Semantics, structure, and APIs of HTML documents https://www.w3.org/TR/html51/dom.html#dom #4 The elements of HTML https://www.w3.org/TR/html51/semantics.html#semantics  Эти разделы описывают:
+ Возможность вложения тега в другие теги. Назначение тега  Описание элемента  Categories: перечисляет названия категорий, доступные для вложения данного тега</description>
+    </item>
+    
+    <item>
+      <title>Работа с файлами</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/files/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/files/</guid>
+      <description>Keys  Behavior     touch&amp;nbsp;index.html  создаст пустой файл index.html   echo &amp;gt; index.html  создаст пустой файл index.html   echo &#39;Hello World&#39; &amp;gt; index.html  создаст файл index.html c текстом &#39;Hello World&#39;   cat&amp;nbsp;index.html  покажет в терминале текст из файла index.html   echo&amp;nbsp;&#39;new line text&#39; &amp;gt;&amp;gt; index.html  добавит текст &#39;new line text&#39; в файл index.html с новой строки   diff&amp;nbsp;index.</description>
+    </item>
+    
+    <item>
+      <title>Работа с командной строкой консоли</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/cli/</guid>
+      <description>Keys  Behavior     Ctrl A  курсор в начало строки   Ctrl E  курсор в конец строки   Ctrl U  стирает текст слева до начала строки курсор в начало строки   Ctrl C  отмена   Ctrl L  clear или очистить экран   Ctrl D  выход из терминала   code .  открыть программу (Visual Studio Code) в текущей директори.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll Update on Welcome to HTML </title>
+    <link>https://gennadiy1970.github.io/hugo-cards/categories/jekyll-update/</link>
+    <description>Recent content in Jekyll Update on Welcome to HTML </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-rus</language>
+    <lastBuildDate>Sat, 27 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gennadiy1970.github.io/hugo-cards/categories/jekyll-update/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Boot</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/boot/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/boot/</guid>
+      <description>Скорость загрузки страницы - важнейший показатель работы сайта.
+Google опубликовал исследование из которого следует, что пользователь переключается на другой сайт, если не дождался появления контента в течение 2,5 секунд.
+По этой причине Google ранжирует сайты при выводе поискового запроса в том числе и по скорости загрузки страницы. Все это требует от FrontEnd-а постоянного внимания к вопрсу скорости загрузки.
+Два важных параметра ограничивающие скорость загрузки страницы
+ Максимальное количество параллельных загрузок браузера = 17 соединений.</description>
+    </item>
+    
+    <item>
+      <title>Работа с директориями</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/dir/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/dir/</guid>
+      <description>Keys  Behavior     mkdir app  создаст директорию app   mkdir&amp;nbsp;app{1..50}  создаст 50 директорий с именами от app1 до app50   mkdir -p src/{css,img,js}  создаст директорию src с вложенными директориями css, img, js   mkdir -p year{2015..2020}/month{1..12}  создаст 6 директорий и в каждой по 12 директорий (year2015/month1)   mkdir&amp;nbsp;class-{A..D}  создаст 4 директории class-A, class-B, class-C, class-D   mkdir -p&amp;nbsp;`date &#39;+%Y-%m-%d&#39;`/{jpg,raw}  создаст директорию вида 2018-10-15 с вложенными директориями jpg, raw   pwd  выведет строку с текущей директорией   cd&amp;nbsp;src  перейдет в директорию src&amp;nbsp;или сообщит об отсутствии такой директории   cd .</description>
+    </item>
+    
+  </channel>
+</rss>

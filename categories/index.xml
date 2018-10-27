@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Welcome to HTML </title>
+    <link>https://gennadiy1970.github.io/hugo-cards/categories/</link>
+    <description>Recent content in Categories on Welcome to HTML </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-rus</language>
+    
+	<atom:link href="https://gennadiy1970.github.io/hugo-cards/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jekyll Update</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/categories/jekyll-update/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/categories/jekyll-update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/categories/one/</link>
+      <pubDate>Mon, 13 Jun 2016 10:51:47 +0530</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/categories/one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/categories/two/</link>
+      <pubDate>Mon, 13 Jun 2016 10:51:47 +0530</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/categories/two/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

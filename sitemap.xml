@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/posts/boot/</loc>
+    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/posts/hello/</loc>
+    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/posts/dir/</loc>
+    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/posts/tag/</loc>
+    <lastmod>2016-06-13T10:51:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/posts/tags/</loc>
+    <lastmod>2016-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/posts/files/</loc>
+    <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/pages/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/pages/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/categories/jekyll-update/</loc>
+    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/categories/one/</loc>
+    <lastmod>2016-06-13T10:51:47+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/pages/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/posts/</loc>
+    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/categories/two/</loc>
+    <lastmod>2016-06-13T10:51:47+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/</loc>
+    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennadiy1970.github.io/hugo-cards/posts/cli/</loc>
+  </url>
+  
+</urlset>

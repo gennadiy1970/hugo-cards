@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Two on Welcome to HTML </title>
+    <link>https://gennadiy1970.github.io/hugo-cards/categories/two/</link>
+    <description>Recent content in Two on Welcome to HTML </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-rus</language>
+    <lastBuildDate>Mon, 13 Jun 2016 10:51:47 +0530</lastBuildDate>
+    
+	<atom:link href="https://gennadiy1970.github.io/hugo-cards/categories/two/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tag</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/tag/</link>
+      <pubDate>Mon, 13 Jun 2016 10:51:47 +0530</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/tag/</guid>
+      <description>     &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; На этой странице собраны все элементы HTML
+ Основные элементы Метаданные документа Секционирование содержания Текстовое содержание Встроенные текстовые семантики Изображения и мультимедиа Встроенное содержание Скриптинг Разграничительные правки Содержание таблиц Формы  Интерактивные элементы Веб-компоненты Устаревшие и осуждаемые элементы  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://gennadiy1970.github.io/hugo-cards/posts/tags/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gennadiy1970.github.io/hugo-cards/posts/tags/</guid>
+      <description>В настоящее время существует около 124 тегов. Однако активно используется только небольшая часть из &amp;nbsp;списка тегов на MDN с кратким описанием назначения кадждого&amp;nbsp;
+Спецификация HTML Необходимые для верстальщика разделы спецификации:
+ #3 Semantics, structure, and APIs of HTML documents https://www.w3.org/TR/html51/dom.html#dom #4 The elements of HTML https://www.w3.org/TR/html51/semantics.html#semantics  Эти разделы описывают:
+ Возможность вложения тега в другие теги. Назначение тега  Описание элемента  Categories: перечисляет названия категорий, доступные для вложения данного тега</description>
+    </item>
+    
+  </channel>
+</rss>

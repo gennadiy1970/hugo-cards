@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<link rel="stylesheet" href="/hugo-cards/sass/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://gennadiy1970.github.io/hugo-cards">Welcome to HTML </a>
+    </div>
+    
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://gennadiy1970.github.io/hugo-cardspages/about/">About</a></li>
+        <li><a href="https://gennadiy1970.github.io/hugo-cardspages/contact/">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="_blank" href="https://github.com/bul-ikana/hugo-cards">Project</a></li>
+            <li><a href="https://github.com/bul-ikana/hugo-cards.git">Download</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a target="_blank" href="https://themes.gohugo.io/">More Themes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+
+    <div class="container">
+      <main class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">Работа с директориями</h1>
+            <p class="post-meta"><time datetime='2018-10-27T00:00:00Z' itemprop="datePublished">October 27, 2018</time></p>
+                 
+          </header>
+
+          <div class="post-content" itemprop="articleBody">
+            <table class="table" style="width: 100%;">
+    <thead>
+        <tr class="row">
+            <th style="width: 50.0000%;">Keys
+                <br>
+            </th>
+            <th style="width: 50.0000%;">Behavior
+                <br>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>mkdir</strong>
+                <em>app</em>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">создаст директорию app
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>mkdir&nbsp;</strong><em>app</em><strong>{</strong><em>1</em><strong>..</strong><em>50</em><strong>}</strong>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">создаст 50 директорий с именами от app1 до app50
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>mkdir -p</strong>
+                <em>src</em><strong>/{</strong><em>css,img,js</em>}
+                <br>
+            </td>
+            <td style="width: 50.0000%;">создаст директорию src с вложенными директориями css, img, js
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>mkdir -p</strong>
+                <em>year</em><strong>{</strong><em>2015<strong>..</strong>2020</em><strong>}/</strong><em>month</em><strong>{</strong><em>1..12</em><strong>}</strong>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">создаст 6 директорий и в каждой по 12 директорий (year2015/month1)
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>mkdir&nbsp;</strong><em>class-</em><strong>{</strong><em>A<strong>..</strong>D</em><strong>}</strong>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">создаст 4 директории class-A, class-B, class-C, class-D
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>mkdir -p&nbsp;`</strong><em>date</em>
+                <strong>'+%Y-%m-%d</strong><strong>'`/{</strong><em>jpg</em>,<em>raw</em><strong>}</strong>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">создаст директорию вида 2018-10-15 с вложенными директориями jpg, raw
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>pwd</strong>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">выведет строку с текущей директорией
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>cd&nbsp;</strong><em>src</em>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">перейдет в директорию <em>src&nbsp;</em>или сообщит об отсутствии такой директории
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>cd ../</strong>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">перейдет в родительскую директорию (на 1 уровень выше)
+                <br>
+            </td>
+        </tr>
+        <tr class="row">
+            <td style="width: 50.0000%;"><strong>cd ../../</strong>
+                <br>
+            </td>
+            <td style="width: 50.0000%;">перейдет в родительскую директорию (на 2 уровеня выше)
+                <br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Скопруйте этот текст</p>
+
+<pre><code>alias setdir='touch index.html | mkdir ./{css,js,img,assets} &amp;&amp; touch ./{js/app.js,css/style.css}'
+</code></pre>
+
+<p>Вставьте в файл  <strong>C:\Program Files\Git\etc\profile.d\aliases.sh</strong>
+Перегрузите <strong>gitbash</strong> и теперь команда <strong>setdit</strong> будет создавать директории  и файлы в директории</p>
+
+          </div>
+
+    </article>
+    <div class="row">
+        
+    </div>
+    
+    <div class="row">
+            <ul class="pager">
+             
+                    <li><a class="next" href="/hugo-cards/posts/tag/">&laquo; Tag</a></li>
+              
+              
+                <li><a class="previous" href="/hugo-cards/posts/hello/">Hello World &raquo;</a></li>
+              
+            </ul>
+    </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+        <div class="post-img">
+           
+            <img width="600" src="https://gennadiy1970.github.io/hugo-cardsimages/image-4.png" alt="Работа с директориями">
+            
+        </div>
+
+        <div class="mt10 recent">
+            <h2>Recent articles</h2>
+             <ul>
+                
+
+                      <li>
+                      <p><a href="/hugo-cards/posts/boot/">Boot</a><small>&nbsp;&nbsp;October 27, 2018</small></p>
+                      </li>
+
+                
+
+                      <li>
+                      <p><a href="/hugo-cards/posts/hello/">Hello World</a><small>&nbsp;&nbsp;October 27, 2018</small></p>
+                      </li>
+
+                
+
+                      <li>
+                      <p><a href="/hugo-cards/posts/dir/">Работа с директориями</a><small>&nbsp;&nbsp;October 27, 2018</small></p>
+                      </li>
+
+                
+              </ul>
+        </div>
+        
+        <br>
+
+</div>
+
+</div>
+
+
+
+
+      </main>
+    </div>
+
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+               
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+
+    <button id="show-blocks">Show blocks</button>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://gennadiy1970.github.io/hugo-cards/js/bootstrap.min.js"></script>
+  <script src="https://gennadiy1970.github.io/hugo-cardsjs//app.js"></script>
+  
+  </body>
+
+</html>
