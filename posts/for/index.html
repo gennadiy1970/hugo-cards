@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Для кого?</title>
+
+    <link rel="stylesheet" href="/hugo-cards/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://gennadiy1970.github.io/hugo-cards">Welcome to HTML </a>
+                </div>
+
+
+                <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://gennadiy1970.github.io/hugo-cardspages/about/">About</a></li>
+                        <li><a href="https://gennadiy1970.github.io/hugo-cardspages/contact/">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">Download <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a target="_blank" href="https://github.com/bul-ikana/hugo-cards">Project</a></li>
+                                <li><a href="https://github.com/bul-ikana/hugo-cards.git">Download</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a target="_blank" href="https://themes.gohugo.io/">More Themes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main class="wrapper">
+
+            <div class="row">
+                <div class="col-md-8">
+                    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+                        <header class="post-header">
+                            <h1 class="post-title" itemprop="name headline">Для кого мы создаем сайты</h1>
+                            <p class="post-meta"><time datetime="2018-10-09T00:00:00Z" itemprop="datePublished">October
+                                    9,
+                                    2018</time></p>
+
+                        </header>
+
+
+                        <div class="post-content" itemprop="articleBody">
+                            <h3>Для кого мы создаем сайты?!</h3>
+                            <ul>
+                                <li>
+                                    <details>
+                                        <summary>Для людей</summary>
+                                        <p>UX/UI - дружелюбный, понятный, удобный и красивый сайт
+                                            с предсказуемым поведением
+                                        </p>
+                                        <p>Сайт должен загружаться быстро и потреблять минимально возможный объем
+                                            трафика.</p>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>Для поисковых роботов и программ, читающих вслух.</summary>
+                                        <p>Использование семантичных тегов HTML,
+                                            помогающие алгоритмам поиска находить и индексировать только тот
+                                            контент,
+                                            который может быть полезным.
+                                        </p>
+                                        <p>Люди с ограниченными возможностями могут использоват программы - ридеры
+                                            для чтения контента вслух и для навигации только клавиатурой или только
+                                            голосом.
+                                            Атрибуты area и role помогают в этом, а панель инструментов
+                                            Accessibility Inspector
+                                            показывает нам как выглядит описание страницы для программы - ридера.</p>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>Для себя/ для коллег</summary>
+                                        <p>Хорошо отформатированный, читабельный код с комментраиями,
+                                            продуманной системой именования директорий (папок), файлов, классов,
+                                            id.
+                                        </p>
+                                        <pre><code>
+<div class="comment">
+&lt;p class="gold16"&gt;
+    Добро пожаловать!
+&lt;/p&gt;
+</div>
+&lt;p class="greeting"&gt;
+    Добро пожаловать!
+&lt;/p&gt;
+                        </code></pre>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>Для смежников</summary>
+                                        <p>Для дизайнера - максимально точно сверстать макет.
+                                            Про непонятное - узнавать. Про спорное и лучшее - предлагать.
+                                        </p>
+                                        <p>Для бакенда - еще раз подумать о системе именований классов и
+                                            верстать так, чтобы вместо контента легко можно было подставлять
+                                            значения из базы данных:
+                                            <pre><code>
+<div class="comment">
+&lt;span class="value"&gt;
+    100грн
+&lt;/span&gt;
+</div>
+&lt;span class="value"&gt;
+    100
+&lt;/span&gt;
+&lt;span class="currency"&gt;
+    Грн
+&lt;/span&gt;
+                        </code></pre>
+                                        </p>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>Для заказчика</summary>
+                                        <p>Уметь размещять сайт на хостинге (linux + apache/nginx) - т.е.
+                                            уметь копировать папки и файлы и избегать заглавных букв в названии.
+                                            Знать об относительном и абсолютном пути.
+                                        </p>
+                                        <p>Знать и уметь применять все современные техники по оптимизации
+                                            сайта - т.е. делать все вышеперечисленное.
+                                            Уметь аргументированно возражать на неоптимальные предложения
+                                            со стороны заказчика.
+                                        </p>
+                                    </details>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <div class="row">
+
+                    </div>
+
+                    <div class="row">
+                        <ul class="pager">
+
+                            <li><a class="next" href="/hugo-cards/pages/about/">&laquo; About</a></li>
+
+
+                            <li><a class="previous" href="/hugo-cards/posts/tags/">Tags &raquo;</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mt20">
+                    <div class="post-img">
+
+                        <img width="600" src="https://gennadiy1970.github.io/hugo-cardsimages/image-3.png" alt="Работа с файлами">
+
+                    </div>
+
+                    <div class="mt10 recent">
+                        <h2>Recent articles</h2>
+                        <ul>
+
+
+                            <li>
+                                <p><a href="/hugo-cards/posts/boot/">Boot</a><small>&nbsp;&nbsp;October 27, 2018</small></p>
+                            </li>
+
+
+
+                            <li>
+                                <p><a href="/hugo-cards/posts/dir/">Работа с директориями</a><small>&nbsp;&nbsp;October
+                                        27, 2018</small></p>
+                            </li>
+
+
+
+                            <li>
+                                <p><a href="/hugo-cards/posts/tag/">Tag</a><small>&nbsp;&nbsp;June 13, 2016</small></p>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <br>
+
+                </div>
+
+            </div>
+
+
+
+
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row p20">
+
+
+                <div class="col-md-4 text-center mt25">
+
+                </div>
+                <div class="col-md-4 text-center mt25">
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <button id="show-blocks">Show blocks</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://gennadiy1970.github.io/hugo-cards/js/bootstrap.min.js"></script>
+    <script src="https://gennadiy1970.github.io/hugo-cards/js/app.js"></script>
+</body>
+
+</html>
